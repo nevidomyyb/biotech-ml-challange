@@ -17,19 +17,7 @@ def view_tsne():
     plt.ylabel("Dimension 2")
     plt.legend(title="Syndrome ID")
     plt.show()
-    # tsne_embeddings = tsne.fit_transform(X)
 
-    # # Plot the 2D t-SNE embeddings
-    # plt.figure(figsize=(12, 8))
-    # for syndrome_id in np.unique(y):
-    #     plt.scatter(tsne_embeddings[y == syndrome_id, 0],
-    #                 tsne_embeddings[y == syndrome_id, 1],
-    #                 label=syndrome_id)
-    # plt.legend(loc='best')
-    # plt.title('t-SNE Visualization of Embeddings Colored by Syndrome ID')
-    # plt.xlabel('t-SNE Feature 1')
-    # plt.ylabel('t-SNE Feature 2')
-    # plt.show()
 
 
 view_tsne()
