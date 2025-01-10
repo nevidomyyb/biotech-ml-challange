@@ -13,8 +13,8 @@ def view_tsne():
     plt.figure(figsize=(10,8))
     sns.scatterplot(x=X_2d[:, 0], y=X_2d[:, 1], hue=y, palette='bright')
     plt.title("Visualization of t-NSE of Biotech Data")
-    plt.xlabel("Dimension 1")
-    plt.ylabel("Dimension 2")
+    plt.xlabel("T-SNE - 1")
+    plt.ylabel("T-SNE - 2")
     plt.legend(title="Syndrome ID")
     plt.show()
 
